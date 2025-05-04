@@ -82,7 +82,7 @@ const Portfolio = () => {
             <div className="card">
               <h3>Data Structures in C++</h3>
               <img src={CNDSAImg} alt="" />
-              <p>Coding Ninjas</p>
+              <p>Coding Ninjas - 2023</p>
               <button>Check here
               <a href="https://drive.google.com/file/d/14ruTdFBHoUE91oTXs0KCopQF0wtPaxW3/view?usp=sharing" target="_blank" rel="noreferrer"><FaExternalLinkAlt /></a>
               </button>
