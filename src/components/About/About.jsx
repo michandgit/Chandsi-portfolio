@@ -1,6 +1,7 @@
 import React from "react";
 import { Element } from "react-scroll";
 import "./About.css";
+import { TbBrandCpp } from "react-icons/tb";
 import {
   FaReact,
   FaNodeJs,
@@ -9,6 +10,7 @@ import {
   FaCss3Alt,
   FaGithub,
   FaDatabase,
+  FaJava
 } from "react-icons/fa";
 import { SiMongodb, SiExpress, SiTensorflow, SiJavascript } from "react-icons/si";
 
@@ -23,6 +25,8 @@ const About = () => {
 
       <h3 className="stack-title">Tech Stack I Use:</h3>
       <div className="tech-icons">
+                <div className="tech-card"><TbBrandCpp  className="icon" /> <span>C++</span></div>
+        <div className="tech-card"><FaJava className="icon" /> <span>Java</span></div>
         <div className="tech-card"><FaHtml5 className="icon" /> <span>HTML5</span></div>
         <div className="tech-card"><FaCss3Alt className="icon" /> <span>CSS3</span></div>
         <div className="tech-card"><SiJavascript className="icon" /> <span>JavaScript</span></div>
