@@ -6,7 +6,7 @@ import ChatappImg from "../../assets/Chatapp.jpeg"
 import PlaceImg from "../../assets/PlacePicker.jpeg"
 import { FaExternalLinkAlt } from "react-icons/fa";
 import CNDSAImg from "../../assets/CNDSAImg.png"
-import udemyCertificate from "../../assets/Udemycertificate.png"
+import genai from "../../assets/genai.jpeg"
 import MLCertificate from "../../assets/MLCertificate.png"
 
 const Portfolio = () => {
@@ -63,9 +63,9 @@ const Portfolio = () => {
           <div className="grid">
       
             <div className="card">
-              <h3>Python Developer</h3>
-              <img src={udemyCertificate} alt="" />
-              <p>Udemy Certificate – 2023</p>
+              <h3>Generative AI Leader </h3>
+              <img src={genai} alt="" />
+              <p>Google Certification – 2025</p>
               <button>Check here <a target="_blank" rel="noreferrer" href="https://drive.google.com/file/d/1ySsLdGExciAq8kCdYt1xewjqGKJRUhaO/view?usp=sharing"><FaExternalLinkAlt /></a> </button>
             </div>
 
