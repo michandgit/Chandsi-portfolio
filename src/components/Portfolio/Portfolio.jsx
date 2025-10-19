@@ -66,7 +66,7 @@ const Portfolio = () => {
               <h3>Generative AI Leader </h3>
               <img src={genai} alt="" />
               <p>Google Certification – 2025</p>
-              <button>Check here <a target="_blank" rel="noreferrer" href="https://drive.google.com/file/d/1ySsLdGExciAq8kCdYt1xewjqGKJRUhaO/view?usp=sharing"><FaExternalLinkAlt /></a> </button>
+              <button>Check here <a target="_blank" rel="noreferrer" href="https://www.credly.com/badges/96365788-f36c-45b3-86b5-bfb48b5df4e2/public_url"><FaExternalLinkAlt /></a> </button>
             </div>
 
             <div className="card">
